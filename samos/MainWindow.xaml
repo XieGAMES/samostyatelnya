@@ -11,11 +11,11 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <!-- Поле для ввода рублей -->
+        
         <TextBox x:Name="txtRubles" Grid.Row="0" Margin="0,0,0,10" 
                  TextChanged="txtRubles_TextChanged"/>
 
-        <!-- Выпадающий список валют -->
+        
         <ComboBox x:Name="cmbCurrency" Grid.Row="1" Margin="0,0,0,10"
                   SelectionChanged="cmbCurrency_SelectionChanged">
             <ComboBoxItem>USD</ComboBoxItem>
